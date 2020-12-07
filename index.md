@@ -2,28 +2,28 @@
 
 ### WG 1: Domain vocabulary / ontology for observed parameters, discovery and use metadata
 
-*WIGOS Metadata (WMDR) standard (PDF)*
+#### WIGOS Metadata (WMDR) standard (PDF)
 https://library.wmo.int/doc_num.php?explnum_id=10109
 
-*WMDR repository on Github, last version of XSD file*
+#### WMDR repository on Github, last version of XSD file
 https://github.com/wmo-im/wmdr
 
-*WMDR Code tables, dev version, with Github discussion forum*
+#### WMDR Code tables, dev version, with Github discussion forum
 https://github.com/wmo-im/wmds
 
-*Official code server*
+#### Official code server
 http://codes.wmo.int/wmdr
 
-*WMDR Schema diagram in HTML, last version before 1st release*
+#### WMDR Schema diagram in HTML, last version before 1st release
 http://schemas.wmo.int/wmdr/1.0RC9/html/
 
-*1st step collection of metadata items in use in ENVRI-FAIR atmospheric subdomain*
+#### 1st step collection of metadata items in use in ENVRI-FAIR atmospheric subdomain
 https://sky.nilu.no/index.php/s/2NgjaR3b7dMPJNH
 
-*Subdomain mapping to WMDR document (latest version)*
+#### Subdomain mapping to WMDR document (latest version)
 https://sky.nilu.no/index.php/s/HJnyST4yo6nDWEi
 
-*SIOS WMDR example and description*
+#### SIOS WMDR example and description
 https://sky.nilu.no/index.php/s/8CgRSA8mPbBfDkm
 
 ### WG 2: Common use of authentication schemes
