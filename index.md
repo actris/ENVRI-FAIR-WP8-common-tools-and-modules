@@ -1,6 +1,6 @@
 ## MS46 Common tools and modules
 
-![envri-fair logo](envri_fair.png)
+![envri-fair logo](https://www.eosc-portal.eu/sites/default/files/envri_logo_final.png)
 
 ### WG 1: Domain vocabulary / ontology for observed parameters, discovery and use metadata
 
