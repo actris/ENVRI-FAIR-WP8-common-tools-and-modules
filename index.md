@@ -72,6 +72,7 @@ The demonstration has been developed in Python and is available on a Jupyter Not
 A demonstration developed by Lara Ferrighi is applying the netCDF-LD approach to generate RDF from netCDF files. This is used on a simple datafile provided through the SIOS webportal and generating netCDF-LD information in the data files.
 
 The code execute the following actions:
+
 - Convert netCDF header to html page
 - Convert netCDF to netCDF+netCDF-LD header
 - Convert netCDF+netCDF-LD to RDF
@@ -83,6 +84,7 @@ The demonstration has been developed in Python and is available on a Jupyter Not
 A demonstration developed by Damien Boulanger is applying the PROV-O model to a simple IAGOS data workflow.
 
 The code executes the following actions:
+
 - Declaration of the vocabularies used to define the activities
 - Definition of the entities (i.e. datasets)
 - Definition of the agents
@@ -151,9 +153,10 @@ It is used by NextGeoss.
 
 #### Sparql endpoints
 Implementation of sparql endpoints:
-Virtuoso Universal Server: [http://vos.openlinksw.com/owiki/wiki/VOS/](http://vos.openlinksw.com/owiki/wiki/VOS/)
-library including sparql endpoint: [https://github.com/semsol/arc2/wiki](https://github.com/semsol/arc2/wiki)
-4store: [https://github.com/4store/4store](https://github.com/4store/4store)
+
+- Virtuoso Universal Server: [http://vos.openlinksw.com/owiki/wiki/VOS/](http://vos.openlinksw.com/owiki/wiki/VOS/)
+- library including sparql endpoint: [https://github.com/semsol/arc2/wiki](https://github.com/semsol/arc2/wiki)
+- 4store: [https://github.com/4store/4store](https://github.com/4store/4store)
 
 #### W3c:
 [https://www.w3.org/wiki/SparqlImplementations](https://www.w3.org/wiki/SparqlImplementations)
