@@ -57,12 +57,13 @@ More information here: [https://github.com/EnvriPlus-PROV/ProvTemplateCatalog](h
 A demonstration developed by Markus Stocker is applying the PROV-O model to a simple ACTRIS data workflow. It is based on the graphical representation of the workflow described in the ACTRIS DMP: [https://camo.githubusercontent.com/f1594ef10cf861aa559dcd116dcd361ec1f1a2df/68747470733a2f2f666f6c6b2e6e696c752e6e6f2f7e6d61726b75732f4143545249532d444d502f32303139303432342532304143545249532532304542415325323044617461253230466c6f7763686172742e706e67](ACTRIS PROV-O demonstration)
 
 The code executes the following actions:
-    • Declaration of the vocabularies used to define the activities
-    • Definition of the entities (i.e. datasets)
-    • Definition of the agents
-    • Definition of the activities
-    • Definition of the links between them
-    • Creation of the provenance file in RDF (ttl format) and plotting as a graph
+
+- Declaration of the vocabularies used to define the activities
+- Definition of the entities (i.e. datasets)
+- Definition of the agents
+- Definition of the activities
+- Definition of the links between them
+- Creation of the provenance file in RDF (ttl format) and plotting as a graph
 
 The demonstration has been developed in Python and is available on a Jupyter Notebook: [https://github.com/envri-fair/provenance/blob/master/demonstrator.ipynb](https://github.com/envri-fair/provenance/blob/master/demonstrator.ipynb)
 
@@ -71,9 +72,9 @@ The demonstration has been developed in Python and is available on a Jupyter Not
 A demonstration developed by Lara Ferrighi is applying the netCDF-LD approach to generate RDF from netCDF files. This is used on a simple datafile provided through the SIOS webportal and generating netCDF-LD information in the data files.
 
 The code execute the following actions:
-    • Convert netCDF header to html page
-    • Convert netCDF to netCDF+netCDF-LD header
-    • Convert netCDF+netCDF-LD to RDF
+- Convert netCDF header to html page
+- Convert netCDF to netCDF+netCDF-LD header
+- Convert netCDF+netCDF-LD to RDF
 
 The demonstration has been developed in Python and is available on a Jupyter Notebook: [https://github.com/ferrighi/netcdf-ld-prototype](https://github.com/ferrighi/netcdf-ld-prototype)
 
@@ -82,12 +83,12 @@ The demonstration has been developed in Python and is available on a Jupyter Not
 A demonstration developed by Damien Boulanger is applying the PROV-O model to a simple IAGOS data workflow.
 
 The code executes the following actions:
-    • Declaration of the vocabularies used to define the activities
-    • Definition of the entities (i.e. datasets)
-    • Definition of the agents
-    • Definition of the activities
-    • Definition of the links between them
-    • Creation of the provenance file in RDF (ttl format)
+- Declaration of the vocabularies used to define the activities
+- Definition of the entities (i.e. datasets)
+- Definition of the agents
+- Definition of the activities
+- Definition of the links between them
+- Creation of the provenance file in RDF (ttl format)
 
 The demonstration has been developed in Java and is available here: [https://github.com/damienboulanger/iagos-prov](https://github.com/damienboulanger/iagos-prov)
 
@@ -162,16 +163,16 @@ library including sparql endpoint: [https://github.com/semsol/arc2/wiki](https:/
 #### Visulization
 Libraries used by RIs in WP8 to produce dynamic visualization:
 
-* Highcharts - [https://www.highcharts.com/](https://www.highcharts.com/)
-* Bokeh - [https://docs.bokeh.org/en/latest/index.html](https://docs.bokeh.org/en/latest/index.html)
-* Plotly - [https://plotly.com/javascript/](https://plotly.com/javascript/)
-* Openlayers (for dynamic maps) - [https://openlayers.org/](https://openlayers.org/)
+- Highcharts - [https://www.highcharts.com/](https://www.highcharts.com/)
+- Bokeh - [https://docs.bokeh.org/en/latest/index.html](https://docs.bokeh.org/en/latest/index.html)
+- Plotly - [https://plotly.com/javascript/](https://plotly.com/javascript/)
+- Openlayers (for dynamic maps) - [https://openlayers.org/](https://openlayers.org/)
 
 #### Web Portal Source Code
 Some of the WP8 portals have published the whole source code of their application:
 
-* ICOS:  [https://github.com/ICOS-Carbon-Portal]()
-* ACTRIS CLU: [https://github.com/actris-cloudnet/dataportal]()
+- ICOS:  [https://github.com/ICOS-Carbon-Portal]()
+- ACTRIS CLU: [https://github.com/actris-cloudnet/dataportal]()
 
 #### ACTRIS CLU's Python package for minting EPIC PIDs
 ACTRIS CLU's Python package for minting EPIC PIDs: [https://github.com/actris-cloudnet/pid-service]()
