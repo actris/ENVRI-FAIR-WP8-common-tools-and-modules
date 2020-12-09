@@ -1,5 +1,7 @@
 ## MS46 Common tools and modules
 
+![envri-fair logo](envri_fair.png)
+
 ### WG 1: Domain vocabulary / ontology for observed parameters, discovery and use metadata
 
 #### WIGOS Metadata (WMDR) standard (PDF)
