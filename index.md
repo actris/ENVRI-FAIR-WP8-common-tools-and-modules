@@ -162,16 +162,16 @@ library including sparql endpoint: [https://github.com/semsol/arc2/wiki](https:/
 #### Visulization
 Libraries used by RIs in WP8 to produce dynamic visualization:
 
-Highcharts - [https://www.highcharts.com/](https://www.highcharts.com/)
-Bokeh - [https://docs.bokeh.org/en/latest/index.html](https://docs.bokeh.org/en/latest/index.html)
-Plotly - [https://plotly.com/javascript/](https://plotly.com/javascript/)
-Openlayers (for dynamic maps) - [https://openlayers.org/](https://openlayers.org/)
+* Highcharts - [https://www.highcharts.com/](https://www.highcharts.com/)
+* Bokeh - [https://docs.bokeh.org/en/latest/index.html](https://docs.bokeh.org/en/latest/index.html)
+* Plotly - [https://plotly.com/javascript/](https://plotly.com/javascript/)
+* Openlayers (for dynamic maps) - [https://openlayers.org/](https://openlayers.org/)
 
 #### Web Portal Source Code
 Some of the WP8 portals have published the whole source code of their application:
 
-ICOS:  [https://github.com/ICOS-Carbon-Portal]()
-ACTRIS CLU: [https://github.com/actris-cloudnet/dataportal]()
+* ICOS:  [https://github.com/ICOS-Carbon-Portal]()
+* ACTRIS CLU: [https://github.com/actris-cloudnet/dataportal]()
 
 #### ACTRIS CLU's Python package for minting EPIC PIDs
 ACTRIS CLU's Python package for minting EPIC PIDs: [https://github.com/actris-cloudnet/pid-service]()
