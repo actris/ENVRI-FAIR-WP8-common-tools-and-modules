@@ -29,6 +29,7 @@
 [https://sky.nilu.no/index.php/s/8CgRSA8mPbBfDkm](https://sky.nilu.no/index.php/s/8CgRSA8mPbBfDkm)
 
 ### Common use of authentication schemes
+The Blueprint Architecture (BPA) by AARC2 is recommended as a reference for setting up individual RIs’ AAI systems and for creating the ENVRI-FAIR federation: [https://aarc-project.eu/architecture/](https://aarc-project.eu/architecture/)
 
 ### Consistent documentation of provenance throughout data production workflow
 
@@ -163,6 +164,9 @@ Implementation of sparql endpoints:
 
 ### Graphical user interface for atmospheric RIs
 
+#### Graphical User Interface requirements
+Graphical User Interface requirements document describing requirements for the graphical user interfaces of WP8 data portals. : https://docs.google.com/document/d/1ONlbkLzq1oso060TPBQqNOQK7czODAGugaSgXdVrzr0/edit.
+
 #### Visulization
 Libraries used by RIs in WP8 to produce dynamic visualization:
 
@@ -203,4 +207,4 @@ The users will interact with a Jupyter Notebook that will allow to search data p
 
 A Broker service will be built on top of the data and metadata access APIs provided by the RIs. Each RI will provide access through common Python API. APIs for the different RIs are also available in the repository.
 
-The implementation of this demonstrator is conducted by CNRS (IAGOS). All the code is available on a public GitHub repository: https://github.com/damienboulanger/envri-wp8-demonstrator
+The implementation of this demonstrator is conducted by CNRS (IAGOS). All the code is available on a public GitHub repository: [https://github.com/damienboulanger/envri-wp8-demonstrator](https://github.com/damienboulanger/envri-wp8-demonstrator)
