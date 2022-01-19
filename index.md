@@ -1,8 +1,8 @@
-## MS46 Common tools and modules
+## ENVRI-FAIR WP8 common tools and modules
 
 ![envri-fair logo](https://www.eosc-portal.eu/sites/default/files/envri_logo_final.png)
 
-### WG 1: Domain vocabulary / ontology for observed parameters, discovery and use metadata
+### Domain vocabulary / ontology for observed parameters, discovery and use metadata
 
 #### WIGOS Metadata (WMDR) standard (PDF)
 [https://library.wmo.int/doc_num.php?explnum_id=10109](https://library.wmo.int/doc_num.php?explnum_id=10109)
@@ -28,16 +28,16 @@
 #### SIOS WMDR example and description
 [https://sky.nilu.no/index.php/s/8CgRSA8mPbBfDkm](https://sky.nilu.no/index.php/s/8CgRSA8mPbBfDkm)
 
-### WG 2: Common use of authentication schemes
+### Common use of authentication schemes
 
-### WG 3: Consistent documentation of provenance throughout data production workflow
+### Consistent documentation of provenance throughout data production workflow
 
 #### Prov Python
 
 Prov Python is a python library for W3C Provenance Data Model supporting PROV-O (RDF), PROV-XML, PROV-JSON import/export.
 
 For more information see: [https://prov.readthedocs.io/en/latest/](https://prov.readthedocs.io/en/latest/)
-            
+
 #### ProvToolbox
 
 ProvToolbox is a Java library to create Java representations of PROV-DM, and convert them between RDF, PROV-XML, PROV-N, and PROV-JSON.
@@ -94,7 +94,7 @@ The code executes the following actions:
 
 The demonstration has been developed in Java and is available here: [https://github.com/damienboulanger/iagos-prov](https://github.com/damienboulanger/iagos-prov)
 
-### WG 4: Recommendations for licenses on metadata and data (replaced by Task Force 5 - Licenses citation and usage tracking):
+### Recommendations for licenses on metadata and data (replaced by Task Force 5 - Licenses citation and usage tracking):
 
 #### ANDS guide on data citation
 [https://fileshare.icos-cp.eu/apps/onlyoffice/s/Qde7w7bYxreNbND?fileId=1158956]()
@@ -117,9 +117,9 @@ The demonstration has been developed in Java and is available here: [https://git
 #### RDA Data Citation WG Recommendations
 [https://fileshare.icos-cp.eu/apps/onlyoffice/s/Qde7w7bYxreNbND?fileId=1157349](https://fileshare.icos-cp.eu/apps/onlyoffice/s/Qde7w7bYxreNbND?fileId=1157349)
 
-### WG 5: Semantic search for atmospheric ENVRI RI user interfaces
+### Semantic search for atmospheric ENVRI RI user interfaces
 
-#### WG5 use-case demonstrator
+#### Use-case demonstrator
 [https://github.com/xiaofengleo/actris](https://github.com/xiaofengleo/actris)
 
 #### Software components list for semantic web:
@@ -161,7 +161,7 @@ Implementation of sparql endpoints:
 #### W3c:
 [https://www.w3.org/wiki/SparqlImplementations](https://www.w3.org/wiki/SparqlImplementations)
 
-### WG 6: Graphical user interface for atmospheric RIs
+### Graphical user interface for atmospheric RIs
 
 #### Visulization
 Libraries used by RIs in WP8 to produce dynamic visualization:
@@ -186,3 +186,21 @@ Python software for producing vertical profiles of cloud properties from ground-
 
 #### SIOS metadata standard specification
 [https://github.com/metno/mmd](https://github.com/metno/mmd)
+
+### Demonstration of web-service for searching and filtering data across Research Infrastructures
+
+Jupyter Notebook demonstrator that aims to offer the following features:
+
+* Search and determine Atmospheric RIs data availability for the period and area of interest with a focus on Essential Climate Variables (ECVs)
+
+* Fetch the selected data including automatic previews of the datasets
+
+* Provide statistical analysis on the downloaded time series
+
+* Download data as a bundle with automated compilation of provenance information
+
+The users will interact with a Jupyter Notebook that will allow to search data products, filter the results, plot them and download them.
+
+A Broker service will be built on top of the data and metadata access APIs provided by the RIs. Each RI will provide access through common Python API. APIs for the different RIs are also available in the repository.
+
+The implementation of this demonstrator is conducted by CNRS (IAGOS). All the code is available on a public GitHub repository: https://github.com/damienboulanger/envri-wp8-demonstrator
