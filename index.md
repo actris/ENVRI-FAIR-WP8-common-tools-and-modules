@@ -208,3 +208,15 @@ The users will interact with a Jupyter Notebook that will allow to search data p
 A Broker service will be built on top of the data and metadata access APIs provided by the RIs. Each RI will provide access through common Python API. APIs for the different RIs are also available in the repository.
 
 The implementation of this demonstrator is conducted by CNRS (IAGOS). All the code is available on a public GitHub repository: [https://github.com/damienboulanger/envri-wp8-demonstrator](https://github.com/damienboulanger/envri-wp8-demonstrator)
+
+### Atmospheric colocation service (Beta)
+
+The colocation service will provide a list of ground based stations and satellites, where the colocation service aims at identifying the satellite observations that match the colocation criteria specified by the users.
+
+Colocation service specifications:
+* [https://docs.google.com/document/d/1CWhOcoTtcLYbQ-ZwtHT-VDT1YUnn3qFCqtAMUxd16fs/edit](https://docs.google.com/document/d/1CWhOcoTtcLYbQ-ZwtHT-VDT1YUnn3qFCqtAMUxd16fs/edit)
+
+Service prototype:
+* [https://www.icare.univ-lille.fr/dev/jdescloitres/envri-fair/colocation/](https://www.icare.univ-lille.fr/dev/jdescloitres/envri-fair/colocation/)
+
+* [https://www.icare.univ-lille.fr/dev/jdescloitres/envri-fair/colocation/examples](https://www.icare.univ-lille.fr/dev/jdescloitres/envri-fair/colocation/examples)
